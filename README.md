@@ -3,6 +3,7 @@
 Here is my repo containing all of the files I'll need to create my own personal website. I'm excited to showcase my skills on my first website built completely from scratch!
 
 Skills I will implement on my site:
+- Wireframing with Sketch
 - Flexbox
 - CSS grid
 - Responsive design (mobile-first)
