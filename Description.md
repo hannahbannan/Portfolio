@@ -2,7 +2,7 @@
 
 Here is my repo containing all of the files I'll need to creat my own personal website. I'm excited to showcase my skills on my first website built completely from scratch.
 
-Skills I want to showcase on my site:
+Skills I will implement on my site:
 - Flexbox
 - CSS grid
 - Responsive design (mobile-first)
