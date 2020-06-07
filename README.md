@@ -1,6 +1,6 @@
 # SEIR-526-Portfolio-Project
 
-Here is my repo containing all of the files I'll need to creat my own personal website. I'm excited to showcase my skills on my first website built completely from scratch.
+Here is my repo containing all of the files I'll need to create my own personal website. I'm excited to showcase my skills on my first website built completely from scratch!
 
 Skills I will implement on my site:
 - Flexbox
