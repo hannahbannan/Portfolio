@@ -3,28 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Hannah Bannan</title>
 </head>
 <body>
     <header>
-        <h1>HB</h1>
-        <nav></nav>
+        <h1>Hannah Bannan</h1>
+        <nav>
+            <a href="#about" class="navItem">ABOUT</a>
+            <a href="#work" class="navItem">WORK</a>
+            <a href="#contact" class="navItem">CONTACT</a>
+          </nav>
     </header>
     <div class="blurb">
-        <h2>Creating beautiful, functional websites one day at a time.</h2>
+        <h2>Learning how to create beautiful, functional websites one day at a time.</h2>
     </div>
-    <section class="about">
+    <section id="about">
+        
         <h3>ABOUT</h3>
+        <div class='about-container'>
+            <img src="./images/229600-R1-4A.png" alt="Portrait" class="headshot">
+            <p>Here's where you'll learn all about me, once I think of what I want to say. This should be a decent sized paragraph describing my background and where I want to take my skills I'm learning at GA.</p>
+        </div>    
     </section>
-    <section class="work">
+    <section id="work">
         <h3>WORK</h3>
+        <p>Brief description of my projects from GA. All will be linked their correpsonding websites.</p>
+        <div class='project-container'>
+        </div>
     </section>
-    <section class="contact">
+    <section id="contact">
         <h3>CONTACT</h3>
+        <a href="mailto:bannan.hannah@gmail.com" class="email">bannan.hannah@gmail.com</a>
     </section>
-    <footer></footer>
+    <footer>
+        <p>© 2020, Hannah Bannan</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
