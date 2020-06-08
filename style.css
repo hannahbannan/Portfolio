@@ -37,18 +37,26 @@ h1 {
     height: 200px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 100px 0 20px 0;
+    padding: 50px;
 }
 
 h3 {
     background-color: lightsalmon;
     color: white;
-    border: dotted yellow 3px;
     text-align: center;
     border-radius: 20px;
 }
 
+h2 {
+    color: #656855;
+    text-align: center;
+}
 
+p {
+    color: #656855;
+}
 
 .headshot {
     width: 100%;
@@ -72,6 +80,10 @@ footer {
       text-decoration: none;
       color: black;
       text-align: center;
+  }
+
+  #contact-form {
+      width: 50%;
   }
 
   @media (min-width: 768px) {
