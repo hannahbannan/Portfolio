@@ -40,7 +40,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 100px 0 20px 0;
-    padding: 50px;
+    padding: 20px;
 }
 
 h3 {
@@ -78,31 +78,44 @@ footer {
     text-align: left;
   }
 
-  .email {
-      text-decoration: none;
-      color: black;
-      text-align: center;
-  }
+.email {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
 
-  #contact-form {
-      width: 50%;
-  }
+#contact-form {
+    width: 50%;
+}
 
-  @media (min-width: 768px) {
-      .headshot {
-          width: 50%;
-          padding: 20px;
+
+ .project-img {
+    width: 80%;
+    padding: 20px;
+    position: center;
+}
+
+h4 {
+    color: #9AC6A2;
+    text-align: center;
+}
+
+
+    @media (min-width: 768px) {
+        .headshot {
+            width: 50%;
+            padding: 20px;
+        }
+  
+        .about-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+  
+        .about-container p {
+            width: 50%;
+            font-size: 1.5rem;
+            padding: 20px;
+        }
       }
-
-      .about-container {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-      }
-
-      .about-container p {
-          width: 50%;
-          font-size: 1.5rem;
-          padding: 20px;
-      }
-    }
