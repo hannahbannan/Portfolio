@@ -34,14 +34,15 @@ function app(projectsArr) {
         let image = $('<img>')
         let description = $('<p>')
         let url = $('<a>')
-        //Why isn't this working?
         //let projectDiv = $('<div>')
-        //$(".project-container").append(projectDiv)
-
         title.text(project.title)
         image.attr('src', project.image).addClass('project-img')
         description.text(project.description)
         url.text(project.url)
-        $('.project-container').append(title, image, description, url)
+        //$projectDiv.append(title, image, description, url)
+        //$(".project-container").append(projectDiv)
+        $(".project-container").append(title, image, description, url)
     })
+        
+        
 }

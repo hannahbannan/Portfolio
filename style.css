@@ -90,14 +90,23 @@ footer {
 
 
  .project-img {
-    width: 80%;
-    padding: 20px;
+    width: 50%;
+    padding: 10px;
     position: center;
 }
+
+/*
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+*/
 
 h4 {
     color: #9AC6A2;
     text-align: center;
+    font-weight: bolder;
 }
 
 
