@@ -9,6 +9,28 @@ body {
     font-family: 'Dosis';
 }
 
+
+h3 {
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Righteous';
+    margin: 20px 10px 20px 10px;;
+}
+
+h2 {
+    color: #656855;
+    text-align: center;
+}
+
+p {
+    color: #656855;
+    font-size: 1.4rem;
+}
+
+/*header*/
+
 header {
     position: fixed;
     left: 0;
@@ -69,6 +91,8 @@ nav li, a {
     z-index: 100;
 }
 
+/*blurb section*/
+
 .blurb {
     height: 200px;
     display: flex;
@@ -78,39 +102,7 @@ nav li, a {
     padding: 20px;
 }
 
-.skills-container {
-    height: 200px;
-}
 
-h3 {
-    background-color: lightsalmon;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-    font-family: 'Righteous';
-    margin: 20px 10px 20px 10px;;
-}
-
-#design p {
-    padding: 30px;
-}
-
-#contact {
-    height: 200px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-
-h2 {
-    color: #656855;
-    text-align: center;
-}
-
-p {
-    color: #656855;
-    font-size: 1.4rem;
-}
 
 .headshot {
     width: 100%;
@@ -119,6 +111,13 @@ p {
     padding-bottom: 20px;
 }
 
+/*skills section*/
+
+.skills-container {
+    height: 200px;
+}
+
+/*Work section*/
 
 .project-container {
     width: 100%;
@@ -128,7 +127,7 @@ p {
 }
 
 .project-container div {
-    width: 100%%;
+    width: 100%;
     display: flex;
     position: center;
     flex-direction: column;
@@ -138,6 +137,16 @@ p {
     border-radius: 20px;
     margin: 10px;
     padding: 10px 20px 10px 20px;
+}
+
+.project-img {
+    width: 100%;
+}
+
+h4 {
+   color: #9AC6A2;
+   text-align: center;
+   font-weight: bolder;
 }
 
 .checkButton {
@@ -151,7 +160,11 @@ p {
     font-size: 1rem;
 }
 
+/*Design carousel*/
 
+#design p {
+    padding: 30px;
+}
 
 .carousel-inner {
     width: 100%;
@@ -169,18 +182,14 @@ p {
     margin: 0 auto;
 }
 
- .project-img {
-     width: 100%;
-}
 
-h4 {
-    color: #9AC6A2;
-    text-align: center;
-    font-weight: bolder;
-}
+
+/*contact*/
 
 #contact {
     height: 320px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .socials {
@@ -202,6 +211,8 @@ h4 {
     text-align: center;
     font-size: 1rem;
 }
+
+/*footer*/
 
 footer {
     position: fixed;
