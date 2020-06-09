@@ -43,6 +43,6 @@ function app(projectsArr) {
         //$(".project-container").append(projectDiv)
         $(".project-container").append(title, image, description, url)
     })
-        
+//I want to: for each item in projectsArr, create a div to contain the projectArr element. Then get the text, image, description, and url for each project and append them to their respective divs. Each of the divs will eb appended to the project container.
         
 }

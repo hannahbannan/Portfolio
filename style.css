@@ -49,6 +49,7 @@ h3 {
     text-align: center;
     border-radius: 20px;
     font-family: 'Righteous';
+    margin: 10px;
 }
 
 h2 {
@@ -88,6 +89,21 @@ footer {
     width: 50%;
 }
 
+.carousel-inner {
+    width: 80%;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.carousel-item {
+    max-width: 500px;
+    width: 75%;
+    position: center;
+    margin: 0 auto;
+}
 
  .project-img {
     width: 50%;
