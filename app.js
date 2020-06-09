@@ -38,7 +38,7 @@ function app(projectsArr) {
         title.text(project.title)
         image.attr('src', project.image).addClass('project-img')
         description.text(project.description)
-        url.attr('href', project.url).text('Check it out')
+        url.attr('href', project.url).text('Check it out').addClass('checkButton')
         projectDiv.addClass(project.title).append(title, image, description, url)
         $(".project-container").append(projectDiv)
         //$(".project-container").append(title, image, description, url)
@@ -46,3 +46,11 @@ function app(projectsArr) {
 //I want to: for each item in projectsArr, create a div to contain the projectArr element. Then get the text, image, description, and url for each project and append them to their respective divs. Each of the divs will eb appended to the project container.
         
 }
+
+$(() => {
+    const $navButton = $('.toggle');
+    const $nav = $('.disappear');
+    $navButton.on('click', () => {
+        $nav.toggleClass('open');
+    })
+})
