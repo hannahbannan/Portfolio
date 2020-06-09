@@ -66,6 +66,7 @@ nav li, a {
     background-color: #9AC6A2;
     display: block;
     text-align: right;
+    z-index: 100;
 }
 
 .blurb {
@@ -75,6 +76,10 @@ nav li, a {
     justify-content: center;
     margin: 100px 0 20px 0;
     padding: 20px;
+}
+
+.skills-container {
+    height: 200px;
 }
 
 h3 {
@@ -87,8 +92,15 @@ h3 {
 }
 
 #design p {
-    padding: 40px;
+    padding: 30px;
 }
+
+#contact {
+    height: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 
 h2 {
     color: #656855;
@@ -97,6 +109,7 @@ h2 {
 
 p {
     color: #656855;
+    font-size: 1.4rem;
 }
 
 .headshot {
@@ -104,53 +117,6 @@ p {
     border-radius: 45px;;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.skills-container {
-    height: 200px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 30px;;
-    width: 100%;
-    background-color: orange;
-    color: white;
-    text-align: left;
-  }
-
-.email {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
-#contact-form {
-    width: 50%;
-}
-
-.carousel-inner {
-    width: 80%;
-    position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.carousel-item {
-    max-width: 500px;
-    width: 75%;
-    position: center;
-    margin: 0 auto;
-}
-
-
-
- .project-img {
-     width: 100%;
 }
 
 
@@ -162,16 +128,16 @@ footer {
 }
 
 .project-container div {
-    width: 90%;
+    width: 100%%;
     display: flex;
     position: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: dotted yellow 2px;
+    border: dotted yellow 3px;
     border-radius: 20px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
 }
 
 .checkButton {
@@ -186,6 +152,27 @@ footer {
 }
 
 
+
+.carousel-inner {
+    width: 100%;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item {
+    max-width: 500px;
+    width: 100%;
+    position: center;
+    margin: 0 auto;
+}
+
+ .project-img {
+     width: 100%;
+}
+
 h4 {
     color: #9AC6A2;
     text-align: center;
@@ -193,8 +180,49 @@ h4 {
 }
 
 #contact {
-    height: 200px;
+    height: 320px;
 }
+
+.socials {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.icon {
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.email {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;;
+    width: 100%;
+    background-color: orange;
+    
+  }
+
+.footer {
+    padding: 0px;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+
+
+/*Media Queries*/
 
 
     @media (min-width: 768px) {
