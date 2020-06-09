@@ -38,7 +38,7 @@ function app(projectsArr) {
         title.text(project.title)
         image.attr('src', project.image).addClass('project-img')
         description.text(project.description)
-        url.attr('href', project.url).text('Check it out here')
+        url.attr('href', project.url).text('Check it out')
         projectDiv.addClass(project.title).append(title, image, description, url)
         $(".project-container").append(projectDiv)
         //$(".project-container").append(title, image, description, url)

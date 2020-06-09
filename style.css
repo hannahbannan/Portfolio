@@ -49,7 +49,11 @@ h3 {
     text-align: center;
     border-radius: 20px;
     font-family: 'Righteous';
-    margin: 10px;
+    margin: 20px 10px 20px 10px;;
+}
+
+#design p {
+    padding: 40px;
 }
 
 h2 {
@@ -113,6 +117,11 @@ footer {
 
  .project-img {
      width: 100%;
+     filter: grayscale(100%);
+}
+
+.project-img:hover {
+    filter: none;
 }
 
 
@@ -131,21 +140,30 @@ footer {
     justify-content: center;
     align-items: center;
     border: dotted yellow 2px;
+    border-radius: 20px;
     margin: 10px;
     padding: 10px;
 }
 
 .project-container a {
-    text-decoration: underline;
-    color: #656855;
+    text-decoration: none;
+    color: white;
     font-weight: bolder;
     cursor: pointer;
+    background-color: #9AC6A2;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
 }
+
 
 h4 {
     color: #9AC6A2;
     text-align: center;
     font-weight: bolder;
+}
+
+#contact {
+    height: 200px;
 }
 
 
