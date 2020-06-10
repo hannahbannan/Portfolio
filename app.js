@@ -49,13 +49,28 @@ function app(projectsArr) {
         
 }
 
-$(() => {
-    //if (max-width: 768px) {
+window.addEventListener("resize", resize);
+
+function resize() {
+    console.log(window.innerWidth)
+    if (window.innerWidth<=768) {
     const $navButton = $('.toggle');
     const $nav = $('.disappear');
     $navButton.on('click', () => {
         $nav.toggleClass('open');
     })
-//}
-})
+}
+}
 
+/*
+$(() => {
+    console.log(window.innerWidth)
+    if (window.innerWidth<=768) {
+    const $navButton = $('.toggle');
+    const $nav = $('.disappear');
+    $navButton.on('click', () => {
+        $nav.toggleClass('open');
+    })
+}
+})
+*/
