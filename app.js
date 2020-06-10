@@ -27,6 +27,7 @@ console.log('running after ajax')
 
 
 //make data into an array, and add the elements onto the page using jquery
+//I created a large projectDiv with class = project title. I appended the prject image to each project div. Then I created a nested div to shot up when you hover over the project div.
 function app(projectsArr) {
     console.log('app - projectsArr', projectsArr)
     projectsArr.forEach( project => {
@@ -35,22 +36,26 @@ function app(projectsArr) {
         let description = $('<p>')
         let url = $('<a>')
         let projectDiv = $('<div>')
+        let projectHover = $('<div>')
         title.text(project.title)
         image.attr('src', project.image).addClass('project-img')
         description.text(project.description)
         url.attr('href', project.url).text('Check it out').addClass('checkButton')
-        projectDiv.addClass(project.title).append(title, image, description, url)
+        projectHover.addClass('project-hover').append(title,description,url)
+        projectDiv.addClass(project.title).append(image,projectHover)
         $(".project-container").append(projectDiv)
-        //$(".project-container").append(title, image, description, url)
     })
-//I want to: for each item in projectsArr, create a div to contain the projectArr element. Then get the text, image, description, and url for each project and append them to their respective divs. Each of the divs will eb appended to the project container.
+
         
 }
 
 $(() => {
+    //if (max-width: 768px) {
     const $navButton = $('.toggle');
     const $nav = $('.disappear');
     $navButton.on('click', () => {
         $nav.toggleClass('open');
     })
+//}
 })
+
