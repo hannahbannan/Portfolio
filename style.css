@@ -36,17 +36,21 @@ p {
 /*header*/
 
 header {
-    position: fixed;
-    left: 0;
-    top: 0;
     width: 100vw;
     height: 100px;
+    position: fixed;
+    top: 0;
     border-bottom: dotted yellow 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: white;
     z-index: 1000000;
+}
+
+
+main {
+    padding-top: 120px;
 }
 
 h1 {
@@ -110,7 +114,7 @@ nav li, a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 0 20px 0;
+    margin-bottom: 20px;
     padding: 20px;
 }
 

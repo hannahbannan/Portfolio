@@ -50,6 +50,8 @@ function app(projectsArr) {
 }
 
 
+//hamburger nav toggle for different screen sizes
+
 window.addEventListener("resize", resize);
 
 function resize() {
