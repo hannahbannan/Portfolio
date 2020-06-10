@@ -49,6 +49,7 @@ function app(projectsArr) {
         
 }
 
+
 window.addEventListener("resize", resize);
 
 function resize() {
@@ -62,7 +63,7 @@ function resize() {
 }
 }
 
-/*
+
 $(() => {
     console.log(window.innerWidth)
     if (window.innerWidth<=768) {
@@ -73,4 +74,4 @@ $(() => {
     })
 }
 })
-*/
+
