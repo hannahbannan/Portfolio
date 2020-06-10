@@ -40,7 +40,7 @@ function app(projectsArr) {
         title.text(project.title)
         image.attr('src', project.image).addClass('project-img')
         description.text(project.description)
-        url.attr('href', project.url).text('Check it out').addClass('checkButton')
+        url.attr({'href': project.url, 'target': '_blank'}).text('Check it out').addClass('checkButton')
         projectHover.addClass('project-hover').append(title,description,url)
         projectDiv.addClass(project.title).append(image,projectHover)
         $(".project-container").append(projectDiv)
