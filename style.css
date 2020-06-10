@@ -5,7 +5,6 @@
 body {
     padding: 20px;
     position: center;
-    /* background-color: rgba(0,0,0,0.1); */
     font-family: 'Dosis';
 }
 
@@ -40,6 +39,7 @@ header {
     height: 100px;
     position: fixed;
     top: 0;
+    left:0;
     border-bottom: dotted yellow 5px;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ main {
 
 h1 {
     color: orange;
-    padding: 30px 0 20px 30px;
+    padding-left: 30px;
     font-family: 'Righteous';
 }
 
@@ -92,6 +92,7 @@ nav li, a:hover {
     background-color: #656855;
     margin: 6px 12px;
     cursor: pointer;
+    margin-right: 20px;;
 }
 
 .open {
