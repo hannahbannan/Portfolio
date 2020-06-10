@@ -9,6 +9,10 @@ body {
     font-family: 'Dosis';
 }
 
+.center {
+    text-align: center;
+}
+
 
 h3 {
     background-color: lightsalmon;
@@ -121,10 +125,36 @@ nav li, a:hover {
 
 /*skills section*/
 
-.skills-container {
-    height: 200px;
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#skills h3 {
+    width: 100%;
+}
+
+.skills-container {
+    position: center;
+    text-align: center;
+    padding-top: 40px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+
+
+.skills-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.skills-container img:hover {
+    opacity: 0.5;
+}
 /*Work section*/
 
 
@@ -330,6 +360,14 @@ footer {
     p {
         font-size: 1.5rem;
     }
+
+  /*skills section*/
+    
+  .skills-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, auto);
+  }
 
   /*work section*/
   
