@@ -119,13 +119,17 @@ nav li, a:hover {
     padding: 20px;
 }
 
-
+/*about section*/
 
 .headshot {
     width: 100%;
     border-radius: 45px;;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.about-container p { 
+    padding: 10px 20px 10px 20px;
 }
 
 /*skills section*/
@@ -162,7 +166,9 @@ nav li, a:hover {
 }
 /*Work section*/
 
-
+#work p {
+    padding: 10px 20px 10px 20px;
+}
 
 .project-container {
     width: 100%;
@@ -300,17 +306,16 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 30px;;
+    height: 24px;
     width: 100%;
     background-color: orange;
-    
+    z-index: 99999;
   }
 
 .footer {
-    padding: 0px;
-    margin: 0;
     color: white;
     text-align: left;
+    font-size: 16px;
 }
 
 
