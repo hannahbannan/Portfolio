@@ -35,11 +35,11 @@
         <nav>
             <ul class='disappear'>
                 <h2 class='toggle close'>X</h2>
-                <li><a href="#about" class='toggle'>ABOUT</a></li>
-                <li><a href="#skills" class='toggle'>SKILLS</a></li>
-                <li><a href="#work" class='toggle'>WORK</a></li>
-                <li><a href="#design" class='toggle'>DESIGN</a></li>
-                <li><a href="#contact" class='toggle'>CONTACT</a></li>
+                <li><a href="#one" class='toggle'>ABOUT</a></li>
+                <li><a href="#two" class='toggle'>SKILLS</a></li>
+                <li><a href="#three" class='toggle'>WORK</a></li>
+                <li><a href="#four" class='toggle'>DESIGN</a></li>
+                <li><a href="#five" class='toggle'>CONTACT</a></li>
              </ul>   
             <div class="hamburger toggle">
               <div></div>
@@ -54,14 +54,14 @@
     </div>
     <section id="about">
         
-        <h3>ABOUT</h3>
+        <h3><span id="one"></span>ABOUT</h3>
         <div class='about-container'>
             <img src="./images/headshot.png" alt="Portrait" class="headshot">
             <p><strong>Hey, I'm Hannah. </strong><br>I used to work in the music industry managing artists. Now, I'm learning new skills at General Assembly to continue turning creative dreams into realities. <br><strong>I do what I love.</strong></p>
         </div>    
     </section>
     <section id="skills">
-        <h3>SKILLS</h3>
+        <h3><span id="two"></span>SKILLS</h3>
         <div class='skills-container'>
             <div class='skills-html'>
                 <img src='https://res.cloudinary.com/hannahbannan/image/upload/v1591818749/Project%20Portfolio/html-logo_uxdkn5.png' alt='HTML'>
@@ -98,16 +98,16 @@
         </div>
     </section>    
     <section id="work">
-        <h3>WORK</h3>
+        <h3><span id="three"></span>WORK</h3>
         <p class='center'>Take a look at the projects I've worked on so far at General Assembly.</p>
         <div class='project-container'>
         </div>
     </section>
     <section id="design">
-        <h3>DESIGN</h3>
-        <p class='center'>During my time as an artist manager, I also designed merchandise, album covers, and web content for my clients. Groovy, baby!</p>
+        <h3><span id="four"></span>DESIGN</h3>
+        <p class='center'>During my time as an artist manager, I designed merchandise, album covers, and web content for my clients. Groovy, baby!</p>
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel appear" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -120,7 +120,7 @@
                 <img src="./images/hr_sticker.GIF" class="d-block w-100" alt="Haley Reinhart sticker">
               </div>
               <div class="carousel-item">
-                <img src="./images/hr_austinpowers.PNG" class="d-block w-100" alt="Haley Reinhart All Access pass">
+                <img src="./images/hr_austinpowers.PNG" class="d-block w-100" id="austin" alt="Haley Reinhart All Access pass">
               </div>
               <div class="carousel-item">
                 <img src="./images/hr_rainbow.JPG" class="d-block w-100" alt="Haley Reinhart tour poster">
@@ -143,7 +143,7 @@
           </div>
     </section>      
     <section id="contact">
-        <h3>CONTACT</h3>
+        <h3><span id="five"></span>CONTACT</h3>
         <p>Hannah Bannan</p>
         <p>Located in Los Angeles, CA</p>
         <p>Email me: <a href="mailto:bannan.hannah@gmail.com" class="email">bannan.hannah@gmail.com</a></p>

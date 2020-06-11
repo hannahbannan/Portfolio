@@ -19,7 +19,13 @@ h3 {
     text-align: center;
     border-radius: 20px;
     font-family: 'Righteous';
-    margin: 20px 10px 20px 10px;;
+    margin: 20px 10px 20px 10px;
+    position: relative;
+}
+
+h3 span {
+    position: absolute;
+    top: -120px;
 }
 
 h2 {
@@ -58,7 +64,6 @@ h1 {
     padding-left: 30px;
     font-family: 'Righteous';
 }
-
 
 .disappear {
     display: none;
@@ -153,8 +158,6 @@ nav li, a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
 }
-
-
 
 .skills-container img {
     width: 100px;
@@ -267,6 +270,11 @@ h4 {
     margin: 0 auto;
 }
 
+#austin {
+    max-height: 500px;
+    width: 375px;
+    position: center;
+}
 
 
 /*contact*/
