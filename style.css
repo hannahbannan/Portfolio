@@ -390,7 +390,8 @@ footer {
   /*work section*/
   
     .project-container {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1 fr);
