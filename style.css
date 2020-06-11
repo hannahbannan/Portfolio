@@ -339,6 +339,9 @@ footer {
     .disappear {
         display: flex;
         align-items: center;
+        position: fixed;
+        right: 0;
+        top: 0;
     }
 
     .close {
