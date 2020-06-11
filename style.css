@@ -421,3 +421,66 @@ footer {
 @media (min-width: 1024px) {
 
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+
+.blurb {
+    margin-top: -40px;
+}    
+
+.headshot {
+    width: 50%;
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container p {
+    width: 50%;
+    padding: 20px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.skills-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.project-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1 fr);
+    grid-gap: 15px;
+}
+
+.Tarot {
+    grid-area: 1/2/3/3;
+}
+
+.Fashion {
+    grid-area: 4/1/7/2;
+}
+
+.Venice {
+    grid-area: 1/1/4/2;
+}
+
+.Startup {
+    grid-area: 5/2/7/3;
+}
+
+.Gallery {
+    grid-area: 3/2/5/3;
+}
+
+}
