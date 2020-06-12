@@ -10,9 +10,8 @@ Skills I will implement on my site:
 - jQuery and interactive design
 
 In this repo you will find:
-- Project timeline & functional components
+- Project timeline for Minimal Viable Product and post-MVP
 - Wireframes for mobile, tablet, and desktop
-- Minimal Viable Product and post-MVP
 - index.html, style.css, script.js files
 
 Libraries used:
