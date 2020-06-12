@@ -14,7 +14,6 @@ In this repo you will find:
 - Wireframes for mobile, tablet, and desktop
 - Minimal Viable Product and post-MVP
 - index.html, style.css, script.js files
-- Thoughts/progress diary
 
 Libraries used:
 - jQuery
