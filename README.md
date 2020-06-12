@@ -15,3 +15,7 @@ In this repo you will find:
 - Minimal Viable Product and post-MVP
 - index.html, style.css, script.js files
 - Thoughts/progress diary
+
+Libraries used:
+- jQuery
+- Bootstrap
