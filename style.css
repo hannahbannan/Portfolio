@@ -187,7 +187,7 @@ nav li, a:hover {
     padding: 10px 20px 10px 20px;
 }
 
-.Tarot, .Fashion, .Venice, .Startup, .Gallery, .Korilla {
+.Tarot, .Fashion, .Venice, .Startup, .Gallery, .Korilla, .Mars {
     position: relative;
     margin: 20px auto;
 }
@@ -234,6 +234,9 @@ nav li, a:hover {
     visibility: visible;
 }
 .Korilla:hover> .project-hover {
+    visibility: visible;
+}
+.Mars:hover> .project-hover {
     visibility: visible;
 }
 
@@ -403,32 +406,36 @@ footer {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1 fr);
+        grid-template-rows: repeat(7, 1 fr);
         grid-gap: 15px;
     }
 
     .Tarot {
-        grid-area: 1/2/3/3;
+        grid-area: 2/2/4/3;
     }
 
     .Fashion {
-        grid-area: 4/1/7/2;
+        grid-area: 5/1/8/2;
     }
 
     .Venice {
-        grid-area: 1/1/4/2;
+        grid-area: 2/1/5/2;
     }
 
     .Startup {
-        grid-area: 5/2/7/3;
+        grid-area: 6/2/8/3;
     }
 
     .Gallery {
-        grid-area: 3/2/5/3;
+        grid-area: 4/2/6/3;
     }
 
     .Korilla {
-        grid-area: 3/2/5/5;
+        grid-area: 4/2/6/5;
+    }
+
+    .Mars {
+        grid-area: 1/1/2/3;
     }
 }
 
