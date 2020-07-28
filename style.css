@@ -187,7 +187,7 @@ nav li, a:hover {
     padding: 10px 20px 10px 20px;
 }
 
-.Tarot, .Fashion, .Venice, .Startup, .Gallery, .Korilla, .Mars {
+.Tarot, .Venice, .Korilla, .Mars, .Dating {
     position: relative;
     margin: 20px auto;
 }
@@ -221,22 +221,17 @@ nav li, a:hover {
 .Tarot:hover> .project-hover {
     visibility: visible;
 }
-.Fashion:hover> .project-hover {
-    visibility: visible;
-}
 .Venice:hover> .project-hover {
-    visibility: visible;
-}
-.Startup:hover> .project-hover {
-    visibility: visible;
-}
-.Gallery:hover> .project-hover {
     visibility: visible;
 }
 .Korilla:hover> .project-hover {
     visibility: visible;
 }
 .Mars:hover> .project-hover {
+    visibility: visible;
+}
+
+.Dating:hover> .project-hover {
     visibility: visible;
 }
 
@@ -405,42 +400,41 @@ footer {
         width: 80%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, 1 fr);
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1 fr);
         grid-gap: 15px;
     }
 
-    .Tarot {
-        grid-area: 2/2/4/3;
+    .Dating {
+        grid-area: 1/1/4/3;
     }
 
-    .Fashion {
-        grid-area: 5/1/8/2;
+    .Tarot {
+        grid-area: 4/5/7/7;
     }
 
     .Venice {
-        grid-area: 2/1/5/2;
-    }
-
-    .Startup {
-        grid-area: 6/2/8/3;
-    }
-
-    .Gallery {
-        grid-area: 4/2/6/3;
+        grid-area: 4/3/7/5;
     }
 
     .Korilla {
-        grid-area: 4/2/6/5;
+        grid-area: 4/1/7/3;
     }
 
     .Mars {
-        grid-area: 1/1/2/3;
+        grid-area: 1/3/4/7;
     }
 }
 
 @media (min-width: 1024px) {
-
+    .project-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .Mars img, .Dating img, .Korilla img, .Venice img, .Tarot img {
+        width: 200px;
+        filter: white(50%)
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -476,7 +470,7 @@ footer {
     height: 70px;
 }
 
-.project-container {
+/* .project-container {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -496,12 +490,10 @@ footer {
     grid-area: 1/1/4/2;
 }
 
-.Startup {
-    grid-area: 5/2/7/3;
+.Dating {
+    grid-area: 1/1/2/2
 }
 
-.Gallery {
-    grid-area: 3/2/5/3;
-}
+.Mars {} */
 
 }
