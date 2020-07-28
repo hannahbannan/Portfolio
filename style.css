@@ -158,8 +158,8 @@ nav li, a:hover {
     width: 80%;
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
 }
 
 .skills-container img {
@@ -390,8 +390,8 @@ footer {
     
   .skills-container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, auto);
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
   }
 
   /*work section*/
@@ -461,7 +461,7 @@ footer {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, auto);
 }
 
