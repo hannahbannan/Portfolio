@@ -187,7 +187,7 @@ nav li, a:hover {
     padding: 10px 20px 10px 20px;
 }
 
-.Tarot, .Venice, .Korilla, .Mars, .Dating, .Spudify {
+ .Venice, .Korilla, .Mars, .Dating, .Spudify, .Tooli {
     position: relative;
     margin: 20px auto;
 }
@@ -218,9 +218,7 @@ nav li, a:hover {
     transition: all 0.5s;
 }
 
-.Tarot:hover> .project-hover {
-    visibility: visible;
-}
+
 .Venice:hover> .project-hover {
     visibility: visible;
 }
@@ -234,6 +232,9 @@ nav li, a:hover {
     visibility: visible;
 }
 .Spudify:hover> .project-hover {
+    visibility: visible;
+}
+.Tooli:hover> .project-hover {
     visibility: visible;
 }
 
@@ -411,15 +412,15 @@ footer {
         grid-area: 1/1/4/3;
     }
 
-    .Tarot {
+    .Korilla {
         grid-area: 4/5/7/7;
     }
 
-    .Venice {
+    .Spudify {
         grid-area: 4/3/7/5;
     }
 
-    .Korilla {
+    .Venice {
         grid-area: 4/1/7/3;
     }
 
@@ -427,7 +428,7 @@ footer {
         grid-area: 1/3/4/5;
     }
 
-    .Spudify {
+    .Tooli {
         grid-area: 1/5/4/7;
     }
 }
@@ -439,7 +440,7 @@ footer {
         flex-wrap: wrap;
         width: 80vw;
     }
-    .Mars img, .Dating img, .Korilla img, .Venice img, .Tarot img, .Spudify img {
+    .Mars img, .Dating img, .Korilla img, .Venice img, .Tooli img, .Spudify img {
         width: 300px;
         filter: white(50%)
     }
@@ -477,31 +478,5 @@ footer {
     width: 70px;
     height: 70px;
 }
-
-/* .project-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1 fr);
-    grid-gap: 15px;
-}
-
-.Tarot {
-    grid-area: 1/2/3/3;
-}
-
-.Fashion {
-    grid-area: 4/1/7/2;
-}
-
-.Venice {
-    grid-area: 1/1/4/2;
-}
-
-.Dating {
-    grid-area: 1/1/2/2
-}
-
-.Mars {} */
 
 }
