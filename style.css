@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+
 }
 
 body {
     padding: 20px;
     position: center;
     font-family: 'Dosis';
+    background-color: #2d2928;
 }
 
 .center {
@@ -14,11 +16,11 @@ body {
 
 
 h3 {
-    background-color: lightsalmon;
+    background-color: #556962;
     color: white;
     text-align: center;
     border-radius: 20px;
-    font-family: 'Righteous';
+    font-family: 'Open Sans', sans-serif;
     margin: 20px 10px 20px 10px;
     position: relative;
 }
@@ -34,7 +36,7 @@ h2 {
 }
 
 p {
-    color: #656855;
+    color: white;
     font-size: 1.4rem;
 }
 
@@ -46,11 +48,10 @@ header {
     position: fixed;
     top: 0;
     left:0;
-    border-bottom: dotted yellow 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: rgba(45, 41, 40, 0.8);
     z-index: 1000000;
 }
 
@@ -60,9 +61,10 @@ main {
 }
 
 h1 {
-    color: orange;
+    color: white;
     padding-left: 30px;
-    font-family: 'Righteous';
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
 }
 
 .disappear {
@@ -96,7 +98,7 @@ nav li, a:hover {
 .hamburger div {
     width: 30px;
     height: 5px;
-    background-color: #656855;
+    background-color: #dccdbc;
     margin: 6px 12px;
     cursor: pointer;
     margin-right: 20px;;
@@ -109,7 +111,7 @@ nav li, a:hover {
     width: 100vw;
     height: 100vh;
     padding: 30px;
-    background-color: #9AC6A2;
+    background-color: #dccdbc;
     display: block;
     text-align: right;
     z-index: 100;
@@ -118,12 +120,17 @@ nav li, a:hover {
 /*blurb section*/
 
 .blurb {
-    height: 200px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     padding: 20px;
+    background-image: url("https://res.cloudinary.com/hannahbannan/image/upload/v1600290768/Project%20Portfolio/A22DCFCC-998E-4B13-9AC5-F031A2C31786_jxfju8.jpg");
+}
+
+.overlay-text {
+    color: white;
 }
 
 /*about section*/
@@ -162,9 +169,15 @@ nav li, a:hover {
     grid-template-rows: repeat(5, auto);
 }
 
+.skills-container p {
+    font-size: 1.1rem;
+    padding-top: 5px;
+}
+
 .skills-container img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    /* filter: grayscale(100%); */
 }
 
 .skills-container img:hover {
@@ -202,8 +215,7 @@ nav li, a:hover {
 
 .project-hover {
     width: 100%;
-    background-color: rgba(255,255,255,0.9);
-    border: dotted yellow 3px;
+    background-color: rgba(0,0,0,0.9);
     border-radius: 20px;
     z-index: 1;
     text-align: center;
@@ -239,7 +251,7 @@ nav li, a:hover {
 }
 
 h4 {
-   color: #9AC6A2;
+   color: #dccdbc;
    text-align: center;
    font-weight: bolder;
 }
@@ -249,7 +261,7 @@ h4 {
     color: white;
     font-weight: bolder;
     cursor: pointer;
-    background-color: #9AC6A2;
+    background-color: #556962;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
     font-size: 1rem;
@@ -310,7 +322,7 @@ h4 {
 
 .email {
     text-decoration: none;
-    color: black;
+    color: #dccdbc;
     text-align: center;
     font-size: 1rem;
 }
@@ -323,7 +335,7 @@ footer {
     bottom: 0;
     height: 24px;
     width: 100%;
-    background-color: orange;
+    background-color: #5b534f;
     z-index: 99999;
   }
 
@@ -354,7 +366,7 @@ footer {
     }
 
     nav li, a {
-        color: #9AC6A2;
+        color: #dccdbc;
         font-size: 1.4rem;
         padding: 0 20px 0 0;
     }
